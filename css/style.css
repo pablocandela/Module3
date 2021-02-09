@@ -1,0 +1,67 @@
+/* Simple Responsive Framework. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+background-color: #f4f4f2;
+}
+
+ul > li {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.navbar-default .navbar-brand:hover{
+  background-color: transparent;
+  color: white;
+}
+
+.food-list {
+  background-color: #f4f4f2;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin-top:0px; 
+  margin-bottom: 0px;
+}
+
+.navbar {
+  background-color: #495464;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar>.container-fluid .navbar-brand{
+  margin-left: 0px;
+}
+
+.text {
+  background-color: #bbbfca;
+  color: black;
+  font-size: 16px;
+}
+
+.description {
+  margin: 40px;
+}
+
+.container-fluid p{
+  font-weight: bold;
+}
+
+.menu-title {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
